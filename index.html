@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sample Semantic HTML5 Page</title>
+  <meta name="description" content="A sample HTML5 page with semantic structure, accessibility enhancements, and SEO-friendly metadata." />
+  <meta name="author" content="Your Name" />
+  <meta name="keywords" content="HTML5, semantic, accessibility, SEO, web development" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header role="banner">
+    <h1>Welcome to Our Semantic HTML5 Page</h1>
+    <nav aria-label="Primary navigation">
+      <ul>
+        <li><a href="#main-content">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main-content" role="main">
+    <section id="about" aria-labelledby="about-heading">
+      <h2 id="about-heading">About Us</h2>
+      <p>We are dedicated to creating accessible and SEO-friendly websites using semantic HTML5.</p>
+    </section>
+
+    <section id="services" aria-labelledby="services-heading">
+      <h2 id="services-heading">Our Services</h2>
+      <article aria-labelledby="service1-heading">
+        <h3 id="service1-heading">Web Development</h3>
+        <p>Building responsive and semantic websites tailored to your needs.</p>
+      </article>
+      <article aria-labelledby="service2-heading">
+        <h3 id="service2-heading">Accessibility Audits</h3>
+        <p>Ensuring your site is usable by everyone, including those with disabilities.</p>
+      </article>
+    </section>
+  </main>
+
+  <footer role="contentinfo" id="contact">
+    <h2>Contact Us</h2>
+    <address>
+      <p>Email: <a href="mailto:info@example.com">info@example.com</a></p>
+      <p>Phone: <a href="tel:+1234567890">+1 (234) 567-890</a></p>
+    </address>
+    <p>&copy; 2025 Your Company Name</p>
+  </footer>
+</body>
+</html>
